@@ -1,0 +1,131 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.task__container {
+  width: 35%;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.task__container-heading {
+  display: flex;
+  align-items: center;
+}
+
+.task__container-heading span {
+  flex: 1;
+}
+
+.task__container-heading h3 {
+  flex: 1;
+  text-align: center;
+  color: rgb(2, 100, 78);
+  font-weight: 500;
+}
+
+.task__container span {
+  height: 1px;
+  width: 100%;
+  background-color: grey;
+}
+
+/* FIRST<SECOND,THIRD Container  */
+.task__container-first {
+  padding: 1rem;
+  border: 2px solid gray;
+  border-radius: 5px;
+  margin: 1rem 0;
+  background-color: rgb(245, 251, 249);
+  cursor: pointer;
+}
+
+.task__container-first__top {
+  display: flex;
+}
+
+.radio {
+  display: grid;
+  place-items: center;
+  padding: 0 1rem 0 0;
+}
+
+.radio input {
+  accent-color: rgb(6, 125, 95);
+}
+.details {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.details p:nth-child(2) {
+  font-weight: 500;
+}
+
+.details__right {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+.details__right h4 {
+  color: rgb(2, 100, 78);
+  font-weight: 500;
+}
+/* Hidden Container */
+
+#one__hidden,
+#two__hidden,
+#three__hidden {
+  padding: 1rem;
+}
+#one__hidden {
+  display: none;
+}
+#two__hidden {
+  display: none;
+}
+#three__hidden {
+  display: none;
+}
+
+.hidden__container {
+  width: 50%;
+  display: grid;
+  grid-template-columns: 0.5fr 1.5fr 1.5fr;
+  gap: 0.5rem 1rem;
+}
+
+/* Footer */
+
+.task__container-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.task__container-footer p:nth-child(1) {
+  color: rgb(2, 100, 78);
+  font-weight: 500;
+}
+
+.task__container-button {
+  background-color: rgb(6, 125, 95);
+  color: white;
+  padding: 0.8rem 0;
+  text-align: center;
+  margin: 1rem 0 0 0;
+  font-weight: 500;
+  border-radius: 2px;
+}
+
+.copyright {
+  text-align: right;
+  font-size: 0.7rem;
+  font-style: italic;
+}
