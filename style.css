@@ -12,7 +12,7 @@ body{
 .task__container {
   width: 35%;
   margin: 0 auto;
-  padding: 1rem;
+  padding: 1.1rem;
 }
 
 .task__container-heading {
@@ -27,7 +27,7 @@ body{
 .task__container-heading h3 {
   flex: 1;
   text-align: center;
-  color: rgb(3, 100, 76);
+  color: rgb(3, 100, 75);
   font-weight: 500;
 }
 
@@ -78,7 +78,7 @@ body{
 }
 
 .details__right h4 {
-  color: rgb(2, 100, 78);
+  color: rgb(3, 100, 78);
   font-weight: 500;
 }
 /* Hidden Container */
